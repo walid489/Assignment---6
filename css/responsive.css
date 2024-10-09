@@ -1,0 +1,229 @@
+@media (max-width: 639.98px) {
+  /* nav start */
+  #nav {
+    padding: 20px 0 20px;
+  }
+  .navbar-brand img {
+    width: 100px;
+  }
+  .navbar-toggler-icon {
+    font-size: 13px;
+  }
+  #nav .navbar-nav .nav-item .nav-link {
+    font-size: 12px;
+  }
+  #nav .user {
+    width: 35px;
+    height: 35px;
+  }
+  #nav .user img {
+    width: 20px;
+  }
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  /* nav end */
+  /* banner start */
+  #banner .txt {
+    margin: 0;
+  }
+  #banner .txt h4 {
+    font-size: 15px;
+  }
+  #banner .txt h1 {
+    font-size: 30px;
+    line-height: 40px;
+    margin: 25px auto 0;
+  }
+  #banner .txt p {
+    font-size: 12px;
+    line-height: 20px;
+    margin: 24px auto 0;
+  }
+  #banner .txt a {
+    font-size: 12px;
+    border-radius: 12px;
+    padding: 10px 20px;
+    margin-top: 20px;
+  }
+  #banner .image img {
+    width: 100%;
+  }
+  #banner {
+    padding: 30px 0 50px;
+  }
+  /* banner end */
+  /* adopt  start */
+  #adopt .title h2 {
+    font-size: 25px;
+  }
+  #adopt .title p {
+    font-size: 12px;
+    line-height: 20px;
+    margin: 10px auto 0;
+  }
+  #adopt .nav-pills {
+    margin-top: 30px;
+    display: flex;
+    row-gap: 10px;
+  }
+  #adopt .nav-pills .nav-item {
+    width: 40%;
+  }
+  #adopt .nav-pills .nav-item button {
+    font-size: 15px;
+  }
+  #adopt .nav-pills .nav-item button img {
+    width: 25px;
+  }
+  #adopt .nav-pills .nav-item button {
+    padding: 10px;
+  }
+  #adopt .dealshort h3 {
+    font-size: 15px;
+  }
+  #adopt .dealshort select {
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 8px 16px;
+  }
+  #adopt .tab-content .tab-pane .contentbox .notfound h4 {
+    margin-top: 14px;
+    font-size: 18px;
+  }
+  #adopt .tab-content .tab-pane .contentbox .notfound p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  #adopt .tab-content .tab-pane .contentbox .notfound {
+    padding: 30px 0;
+  }
+  #adopt .tab-content .tab-pane .contentbox .notfound img {
+    width: 90px;
+  }
+  #adopt .tab-content .tab-pane .contentbox .modal.show .details {
+    width: 60%;
+  }
+  #adopt .tab-content .tab-pane .contentbox .item .adoptimg {
+    height: 100px;
+  }
+  #adopt .tab-content .tab-pane .contentbox .item .adopttxt .adoptinfo li {
+    column-gap: 5px;
+    font-size: 10px;
+  }
+  #adopt .tab-content .tab-pane .contentbox .details p {
+    font-size: 10px;
+    line-height: 12px;
+    margin: 0;
+  }
+  #adopt .tab-content .tab-pane .contentbox .item .adopttxt .adoptinfo {
+    row-gap: 0px;
+  }
+  #adopt .tab-content .tab-pane .contentbox .item .adopttxt h4 {
+    font-size: 15px;
+  }
+  #adopt .tab-content .tab-pane .contentbox .item .adopttxt {
+    margin-top: 10px;
+}
+#adopt .tab-content .tab-pane .contentbox .item {
+  padding: 10px;
+}
+#adopt .tab-content .tab-pane .contentbox .details .detail {
+  margin-top: 10px;
+  padding-top: 10px;
+}
+#adopt .tab-content .tab-pane .contentbox .details .dtlbtn button {
+  border-radius: 5px;
+  padding: 3px 0;
+  font-size: 12px;
+}
+  /* adopt  end */
+  /* footer start */
+  #footer {
+    padding: 40px 0;
+  }
+  .footlogo {
+    width: 100px;
+  }
+  #footer .footcontact li a {
+    font-size: 10px;
+    line-height: 10px;
+  }
+  #footer h4 {
+    font-size: 15px;
+  }
+  #footer .links li a {
+    font-size: 12px;
+  }
+  #footer .footsocial {
+    column-gap: 10px;
+  }
+  #footer .footsocial img {
+    width: 20px;
+  }
+  #footer .footcontact {
+    padding: 24px 0 0;
+  }
+  #footer .message {
+    justify-content: center;
+    margin-top: 50px;
+  }
+  #footer .message .abcd {
+    text-align: center;
+  }
+  #footer .message form {
+    margin-top: 15px;
+  }
+  #footer .message form input {
+    font-size: 11px;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  #footer .message form button {
+    font-size: 12px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  /* footer end */
+}
+
+@media (min-width: 640px) and (max-width: 767.98px) {
+  #banner .image img {
+    width: 100%;
+  }
+  #banner {
+    padding: 0px 0 70px;
+  }
+  #banner .txt h1 {
+    font-size: 50px;
+    line-height: 60px;
+    margin: 20px auto 0;
+  }
+  #banner .txt a {
+    font-size: 15px;
+  }
+  #adopt .title p {
+    margin: 0px auto 0;
+  }
+  #adopt .nav-pills .nav-item {
+    width: 30%;
+  }
+  #adopt .nav-pills .nav-item:last-child {
+    width: 100%;
+  }
+  #adopt .nav-pills .nav-item button {
+    font-size: 18px;
+    padding: 10px;
+  }
+  #adopt .nav-pills .nav-item button img {
+    width: 40px;
+  }
+  #adopt .nav-pills {
+    margin-top: 35px;
+    row-gap: 10px;
+  }
+  #footer .message {
+    justify-content: center;
+  }
+}
